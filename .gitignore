@@ -1,2 +1,5 @@
 # sensible files
 .env
+
+# local data
+data/
