@@ -1,12 +1,17 @@
-discord==1.0.1
 
-# discord requirements
+# discord and dependencies
 aiohttp==3.7.4.post0
 async-timeout==3.0.1
 attrs==21.2.0
 chardet==4.0.0
+discord==1.0.1
 discord.py==1.7.2
 idna==3.2
 multidict==5.1.0
 typing-extensions==3.10.0.0
 yarl==1.6.3
+
+# python linter and dependencies
+autopep8==1.5.7
+pycodestyle==2.7.0
+toml==0.10.2
