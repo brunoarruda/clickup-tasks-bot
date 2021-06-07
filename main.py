@@ -34,6 +34,18 @@ async def task(ctx: commands.context.Context, *, args):
 async def token(ctx: commands.context.Context, app, value):
     await ctx.send("{}={}".format(app, value))
 
+@client.command()
+async def usage(ctx: commands.context.Context):
+    msg = r'''Olá! Estou em desenvolvimento. Basicamente, insira uma task da seguinte forma:
+```
+$task [\n] space.[folder.]task
+title
+description
+fields
+```
+obs: `[]` em volta de um termo indica que ele é opcional na sintaxe do comando.'''
+    await ctx.send(msg)
+
 @client.event
 async def on_reaction(reaction, user):
     pass
