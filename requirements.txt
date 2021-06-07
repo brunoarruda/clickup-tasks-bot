@@ -1,17 +1,18 @@
-
-# discord and dependencies
-aiohttp==3.7.4.post0
-async-timeout==3.0.1
-attrs==21.2.0
-chardet==4.0.0
-discord==1.0.1
-discord.py==1.7.2
-idna==3.2
-multidict==5.1.0
-typing-extensions==3.10.0.0
-yarl==1.6.3
-
-# python linter and dependencies
 autopep8==1.5.7
-pycodestyle==2.7.0
-toml==0.10.2
+  pycodestyle==2.7.0
+  toml==0.10.2
+discord==1.0.1
+  discord.py==1.7.2
+    aiohttp==3.7.4.post0
+      async-timeout==3.0.1
+      attrs==21.2.0
+      chardet==4.0.0
+      multidict==5.1.0
+      typing-extensions==3.10.0.0
+      yarl==1.6.3
+        idna==3.2
+        multidict==5.1.0
+pipdeptree==2.0.0
+  pip==21.1.2
+setuptools==56.1.0
+wheel==0.36.2
